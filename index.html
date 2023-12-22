@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+  <h1>Fictional Currency Converter</h1>
+    <form>
+        <label for="cars"></label>
+        <select name="currency" id="real-currency">
+          <optgroup label="Real-life Currency">
+            <option value="Dollars">Dollars</option>
+            <option value="Cents">Cents</option>
+            <option value="Yen">Yen</option>
+            <option value="Pounds">Pounds</option>
+          </optgroup>
+        </select>
+        
+        <input type="number" name="" id="rcur">
+        <br><br>
+    </form>
+    <form>
+        <label for="cars"></label>
+        <select name="currency" id="fictional-currency">
+          <optgroup label="Fictional Currency">
+            <option value="V-bucks">V-bucks</option>
+            <option value="Robux">Robux</option>
+          </optgroup>
+        </select>
+        <input type="number" value="" readonly id="fcur">
+        <br><br>
+        <input type="button" value="Submit" onclick="getSelectedOption()">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
